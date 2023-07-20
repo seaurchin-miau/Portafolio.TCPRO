@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Anna Luz">
+    <meta name="description" content="Portafolio de desarrollo web de Anna Luz">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title> Anna Luz | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://ih1.redbubble.net/image.220391018.9753/st,small,507x507-pad,600x600,f8f8f8.u5.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#contacto">
+            <img src="https://ih1.redbubble.net/image.220391018.9753/st,small,507x507-pad,600x600,f8f8f8.u5.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://ih1.redbubble.net/image.220391018.9753/st,small,507x507-pad,600x600,f8f8f8.u5.jpg" alt="Mi foto">
+        <h1>Hola, soy Anna Luz</h1>
+        <!--<h2> Científica en formación, mini-artista y programadora en desarrollo.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primar mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="/imagenes/toppng.com-science-png-hd-science-717x463.png" alt="Logo STEM">
+      </div>
+    </section>
+    <div class="separador1"></div>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Anna</h2>
+        <p class="seccion-texto"> Es complicado describirme haciendo alusión a lo que me dedico... Estudio investigación biomédica, hago pequeñas obras de arte y recientemente he incursionado a la programación. Lo que más me gusta es combinar diferentes áreas del conocimiento humano para crear, aprender e innovar, pues es una gran manera de conocer nuevas personas y perspectivas, que nos acercan más fácilmente a un mundo mejor.</p>
+      </div>
+    </section>
+    <div class="separadorn"></div>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Mis estudios -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-book"></i>
+            <p class="experiencia-titulo">Mis estudios</p>
+            <p> Actualmente estoy por concluir mi licenciatura en Investigación Biomédica Básica, donde he desarrollado las habilidades fundamentales para la práctica científica. Mis principales áreas de conocimiento e interés son...</p>
+            <div class="badges-contenedor">
+              <span class="badge-text-bg-primary">Genética</span>
+              <span class="badge-text-bg-primary">Microbiología</span>
+              <span class="badge-text-bg-primary">Inmunología</span>
+              <span class="badge-text-bg-primary">Epigenética</span>
+            </div>
+          </div>
+          <!-- Arte -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-brush"></i>
+            <p class="experiencia-titulo">Arte</p>
+            <p> Uno de mis principales pasatiempos y complementos a la ciencia, es el arte, conjuntando ambas es como he creado la mayor parte de mis obras. Me he enfocado principalmente en las siguientes artes visuales...</p>
+            <div class="badges-contenedor">
+              <span class="badge-text-bg-primary">Pintura</span>
+              <span class="badge-text-bg-primary">Dibujo</span>
+              <span class="badge-text-bg-primary">Ilustración digital</span>
+            </div>
+          </div>
+          <!-- Desarrollo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-code"></i>
+            <p class="experiencia-titulo">Desarrollo web</p>
+            <p> Recientemente me he invlucrado en la programación como un medio para encontrar soluciones prácticas a problemas cotidianos en la ciencia, así como para darme a conocer al mundo. Esta es mi primer página web. Los lenguajes que manejo hasta el momento son... </p>
+            <div class="badges-contenedor">
+              <span class="badge-text-bg-primary">HTML</span>
+              <span class="badge-text-bg-primary">CSS</span>
+              <span class="badge-text-bg-primary">Java</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="separador2"></div>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos de programación que he creado o en los que he colaborado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://www.thecoldwire.com/wp-content/uploads/2021/09/A-woman-is-typing-on-Google-search-engine-from-a-laptop.jpeg" alt="Proyecto 1">
+              <div class="overlay">
+                <p> Mi primer clonación de página web</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/seaurchin-miau/Clon.google" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://navegador-google-clon.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://signoscv.com/wp-content/uploads/2022/04/pagina-web-1.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Mi primer página web informativa</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/seaurchin-miau/Mundo.de.axolotes" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://los-axolotes-del-mundo.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://www.mytaskpanel.com/wp-content/uploads/2022/06/consulting-blog-09.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Mi primer curso de Java SE con BEDU</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/seaurchin-miau/JSE_Fase3_Equipo10" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      <a href="https://github.com/seaurchin-miau" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+      <div class="separadorf"></div>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Contáctame!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Si gustas iniciar tu proyecto de desarrollo web conmigo, haré que tu página ideal cobre vida
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Mi correo
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="https://ih1.redbubble.net/image.220391018.9753/st,small,507x507-pad,600x600,f8f8f8.u5.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center"> Aprendamos de nuestras diferencias.<br> Si gustas conocerme, búscame en...</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/seaurchin-miau" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/annaluzgp" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="annaluzgp@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Modificado por Anna Luz (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
